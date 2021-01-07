@@ -1,18 +1,18 @@
 # Flight Application Services
 
 ## The flight app includes the following different microservices:
-airplane-service
-boarding-pass-service
-flight-service
-passenger-service
-ticket-service
-eureka-service
+<li>airplane-service
+<li>boarding-pass-service
+<li>flight-service
+<li>passenger-service
+<li>ticket-service
+<li>eureka-service
 
 
 ## The required APIs for the assignment are:
-ticket-service/ticket/isExist/{ticket_id}
-ticket-service/ticket/coupon/{coupon_id}/{price}
-boarding-pass-service/boarding/checkedIn/{destination_id}/{baggage_id}
+<li>ticket-service/ticket/isExist/{ticket_id}
+<li>ticket-service/ticket/coupon/{coupon_id}/{price}
+<li>boarding-pass-service/boarding/checkedIn/{destination_id}/{baggage_id}
 
 
 Local in-memory cache mechanism is implemented under ticket-service.
