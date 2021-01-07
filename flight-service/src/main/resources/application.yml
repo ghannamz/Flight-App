@@ -1,0 +1,19 @@
+server:
+  port: 8082
+
+plane:
+  service: http://airplane-service/
+  path: airplane/
+
+spring:
+  application:
+    name: flight-service
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8085/eureka/
+    instance:
+      hostname: localhost

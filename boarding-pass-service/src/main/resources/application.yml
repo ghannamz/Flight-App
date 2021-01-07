@@ -1,0 +1,19 @@
+server:
+  port: 8084
+
+ticket:
+  service: http://ticket-service/
+  path: ticket/
+
+spring:
+  application:
+    name: boarding-pass-service
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8085/eureka/
+    instance:
+      hostname: localhost
